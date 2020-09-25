@@ -51,3 +51,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Express](https://expressjs.com/pt-br/)
 - [Node.js](https://nodejs.org/en/)
 - [JavaScript](https://www.javascript.com)
+
+
+### Autor 
+
+Berman Schultz
