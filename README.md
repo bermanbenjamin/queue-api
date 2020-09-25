@@ -3,7 +3,7 @@
 ## API RPC para facilitar o gerenciamento de uma fila de pessoas!
 
 <h4 align="center"> 
-	🚧  Node API 🚀 Em construção(falta validações)...  🚧
+	🚧  Node API 🚀 
 </h4>
 
 ## Endpoints
