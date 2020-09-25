@@ -13,13 +13,13 @@
 \$ Recebe nome, email e genero no corpo da requisição e cadastras o usuário caso não esteja cadastrado
 e devolve o Usuário como resposta
 
-\$ http://localhost:3000/
+\$ http://localhost:3000/createUser
 
 \$ Exemplo de corpo:
 {
 "name": "berman",
 "email": "bermanschultz@mail.com",
-"gender": "female"
+"gender": "male"
 }
 
 ### Add to Line
