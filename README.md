@@ -6,9 +6,9 @@
 	🚧  Node API 🚀 Em construção(falta validações)...  🚧
 </h4>
 
-### Endpoints
+## Endpoints
 
-#### Create User
+### Create User
 
 \$ Recebe nome, email e genero no corpo da requisição e cadastras o usuário caso não esteja cadastrado
 e devolve o Usuário como resposta
@@ -22,13 +22,13 @@ e devolve o Usuário como resposta
 "gender": "female"
 }
 
-#### Add to Line
+### Add to Line
 
 \$ Esse metódo deve receber o id do usuário a ser adicionado à fila e deve retornar a posição em que ele está na fila.
 
 \$ http://localhost:3000/addToLine/:id
 
-#### Find Position
+### Find Position
 
 \$ Esse metódo deve receber o e-mail de um usuário e retornar a posição dele na fila.
 
@@ -39,19 +39,19 @@ e devolve o Usuário como resposta
 "email": "bermanschultz@mail.com",
 }
 
-#### Show Line
+### Show Line
 
 \$ Esse metódo deve retornar uma lista de usuários (nome, gênero e email), bem como a posição de cada um deles na fila (ordenando de primeira posição para última).
 
 \$ http://localhost:3000/showLine
 
-#### Show Line
+### Show Line
 
 \$ Esse metódo deve receber um gênero de usuário e retornar uma lista de usuários com aquele gênero (nome, gênero e email), bem como a posição de cada um deles na fila (ordenando de primeira posição para última).
 
 \$ http://localhost:3000/filterLine/:gender
 
-#### Pop Line
+### Pop Line
 
 \$ Esse metódo deve retirar da fila a pessoa na primeira posição e retorna-la.
 
