@@ -45,7 +45,7 @@ e devolve o Usuário como resposta
 
 \$ http://localhost:3000/showLine
 
-### Show Line
+### Filter Line
 
 \$ Esse metódo deve receber um gênero de usuário e retornar uma lista de usuários com aquele gênero (nome, gênero e email), bem como a posição de cada um deles na fila (ordenando de primeira posição para última).
 
