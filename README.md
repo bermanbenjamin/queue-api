@@ -2,24 +2,11 @@
 
 ## API RPC para facilitar o gerenciamento de uma fila de pessoas!
 
-<p align="center">
- <a href="#objetivo">Objetivo</a> •
- <a href="#roadmap">Roadmap</a> • 
- <a href="#tecnologias">Tecnologias</a> • 
- <a href="#contribuicao">Contribuição</a> • 
- <a href="#licenc-a">Licença</a> • 
- <a href="#autor">Autor</a>
-</p>
 
 <h4 align="center"> 
 	🚧  Node API 🚀 Em construção(falta validações)...  🚧
 </h4>
 
-<h4 align="center" id="#objetivo"> 
-	Objetivo
-</h4>
-
-<p>Tem como objetivo cadastar e gerencia uma lista de usuários por meio de uma API feita em node.js</p>
 
 ### Features
 
@@ -57,7 +44,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 # O servidor inciará na porta:3000 - acesse <http://localhost:3000>
 
-### 🛠 Tecnologias
+### ### 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
