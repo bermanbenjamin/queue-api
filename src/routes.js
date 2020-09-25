@@ -6,7 +6,7 @@ const UserController = require("./controllers/UserController");
 const ListController = require("./controllers/ListController");
 
 // - Cria usuario
-routes.post("/", UserController.createUser);
+routes.post("/createUser", UserController.createUser);
 
 // - Coloca um usuário na última posição da fila;
 routes.get("/addToLine/:id", ListController.addToLine);
