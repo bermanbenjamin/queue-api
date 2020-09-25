@@ -15,11 +15,17 @@
 	🚧  Node API 🚀 Em construção(falta validações)...  🚧
 </h4>
 
+<h4 align="center" id="#objetivo"> 
+	Objetivo
+</h4>
+
+<p>Tem como objetivo cadastar e gerencia uma lista de usuários por meio de uma API feita em node.js</p>
+
 ### Features
 
 - [x] Create User
 - [x] Add To Line
-- [X] Find Position
+- [x] Find Position
 - [x] Show Line
 - [x] Filter Line
 - [x] Pop Line
@@ -28,23 +34,26 @@
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
 ### 🎲 Rodando o Back End (servidor)
 
 # Clone este repositório
 
-$ git clone <https://github.com/bermanbenjamin/queue-api.git>
+\$ git clone <https://github.com/bermanbenjamin/queue-api.git>
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd queue-api
+
+\$ cd queue-api
 
 # Instale as dependências
-$ npm install
+
+\$ npm install
 
 # Execute a aplicação em modo de desenvolvimento
-$ npm run dev
+
+\$ npm run dev
 
 # O servidor inciará na porta:3000 - acesse <http://localhost:3000>
 
@@ -55,5 +64,3 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Express](https://expressjs.com/pt-br/)
 - [Node.js](https://nodejs.org/en/)
 - [JavaScript](https://www.javascript.com)
-
-
