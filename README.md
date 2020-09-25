@@ -1,6 +1,6 @@
 # API QUEUE
 
-## API RPC facilitar o gerenciamento de uma fila de pessoas!
+## API RPC para facilitar o gerenciamento de uma fila de pessoas!
 
 <p align="center">
  <a href="#objetivo">Objetivo</a> •
@@ -23,7 +23,7 @@
 - [x] Show Line
 - [x] Filter Line
 - [x] Pop Line
-- [ ] Validations
+- [x] Validations
 
 ### Pré-requisitos
 

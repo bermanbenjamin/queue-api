@@ -6,11 +6,14 @@ exports.addToLine = function (req, res) {
 
   const user1 = UserRepository.findById(id);
 
-  ListRepository.saveUser(user1);
-  
+  if (user1 == null) res.send("Usuario não encontrado");
+
+  ListRepository.saveUser(user1, id);
+
   let position = ListRepository.indexOf(user1);
 
-  res.send(`position of user in queue is = ${position}`);
+  if (position == null) res.send("Usuario ja adicionado a fila");
+  else res.send(`position of user in queue is = ${position}`);
 };
 
 exports.findPosition = function (req, res) {
@@ -20,7 +23,9 @@ exports.findPosition = function (req, res) {
 
   let position = ListRepository.indexOf(user);
 
-  res.send(`position of user in queue is = ${position}`);
+  if (position == null)
+    res.send(`O usuário não se encontra na fila`);
+  else res.send(`position of user in queue is = ${position}`);
 };
 
 exports.showLine = function (req, res) {
@@ -40,5 +45,6 @@ exports.filterLine = function (req, res) {
 exports.popLine = function (req, res) {
   const user = ListRepository.popUser();
 
-res.send(`${user} foi retirado da fila`);
+  if (user == null) res.send("Nenhum usuário na fila");
+  else res.send(JSON.stringify(user));
 };

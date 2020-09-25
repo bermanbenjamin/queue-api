@@ -4,11 +4,12 @@ const UserRepository = require("../repositories/UserRepository");
 exports.createUser = function (req, res) {
   const { name, email, gender } = req.body;
 
-  const user1 = new User(name, email, gender);
 
-  UserRepository.saveUser(user1);
+  if (UserRepository.findUser(name, email) == false) {
+    let user1 = new User(name, email, gender);
 
-  return res.json(user1);
+    UserRepository.saveUser(user1, name);
+
+    return res.json(user1);
+  } else res.send("user ja existe");
 };
-
-
