@@ -40,7 +40,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 # Execute a aplicação em modo de desenvolvimento
 
-\$ npm run dev
+\$ npm start
 
 # O servidor inciará na porta:3000 - acesse <http://localhost:3000>
 
